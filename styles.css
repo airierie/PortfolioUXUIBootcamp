@@ -1,0 +1,41 @@
+li{
+  display:inline-block;
+  font-family:"Montserrat",Arial,san-serif;
+  font-size:14px;
+}
+header ul{
+  position:absolute;
+  top:1rem;
+  right:3rem;
+}
+
+p{
+  font-family:"Montserrat",Arial,san-serif;
+}
+
+h1{
+  font-family:"Montserrat",Arial,san-serif;
+  font-size:24px;
+}
+
+.intro{
+  width:600px;
+}
+
+body ul{
+  text-align:center;
+}
+
+.projectThumbnail{
+  width:3rem;
+  display:inline-block;
+  border-width:1px;
+  border-style:solid;
+  padding-left:10rem;
+  padding-right:10rem;
+  padding-top:10rem;
+}
+
+.projectThumbnail p{
+  text-align:bottom;
+}
