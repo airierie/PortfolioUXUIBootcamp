@@ -1,3 +1,8 @@
+body{
+  margin-left:6rem;
+  margin-right:6rem;
+}
+
 li{
   display:inline-block;
   font-family:"Montserrat",Arial,san-serif;
@@ -22,20 +27,36 @@ h1{
   width:600px;
 }
 
-body ul{
+.nav{
+  text-align:right;
+  margin-right:1rem;
+}
+
+.tag{
   text-align:center;
+  margin-top:80px;
 }
 
-.projectThumbnail{
-  width:3rem;
-  display:inline-block;
-  border-width:1px;
+.grid-container{
+  display:grid;
+  grid-template-columns: auto auto auto;
+  padding:10px;
+  margin-bottom:80px;
+}
+
+.grid-child{
+  border: 1px solid rgba(0,0,0,0.8);
   border-style:solid;
-  padding-left:10rem;
-  padding-right:10rem;
-  padding-top:10rem;
+  width:320px;
+  height:320px;
 }
 
-.projectThumbnail p{
-  text-align:bottom;
+.grid-child img{
+  width:320px;
+  height:210px;
+  object-fit: fill;
+}
+
+.form{
+  margin-top:80px;
 }
